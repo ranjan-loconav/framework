@@ -1,0 +1,26 @@
+{
+	"InitPage": {
+		"username": "#username",
+		"password": "#password",
+		"loginbtn": "#login-btn"
+	},
+	"HomePage": {
+		"mnuSideBar": "div.sidebar-item",
+		"mnuMainMenu": "div.sidebar-item>>text=MAINMENU",
+		"mnuSubMenu": "div.sidebar-expand-item>>text=SUBMENU"
+	},
+	"MyDriversPage": {
+		"btnAddDriver": "button[data-qa='add-driver']",
+		"cmbCountry": ".phoneNumber-country-select__input",
+		"optCountry": "text=COUNTRY",
+		"btnSaveDriver": "[data-qa='save-driver']",
+		"name": "input[name='name']",
+		"phoneNumber": "input[name='phoneNumber']",
+		"personalIdentificationNumber": "input[name='aadharNumber']",
+		"trackingID": "input[name='rfidTrackingId']",
+		"guarantorName": "input[name='guarantorName']",
+		"optCountryForguarantor": ".guarantorPhoneNumber-country-select__input",
+		"clickAddDriver": "button[type='submit']",
+		"txtSearch": "[class='sc-kgflAQ cbqhPa']"
+	}
+}

@@ -1,0 +1,76 @@
+{
+	"DriversPage": {
+		"[font-size='h6']": {
+			"innertext": "Водители"
+		},
+		"[font-size='subheader']": {
+			"innertext": "Мои водители"
+		},
+		"input[data-qa='main-search-field']": {
+			"placeholder": "Имя или номер телефона"
+		},
+		"button[data-qa='driver-scoring-matrix']>div": {
+			"innertext": "Матрица Оценки Водителей"
+		},
+		"button[data-qa='bulk-upload']>div": {
+			"innertext": "Импорт Данных"
+		},
+		"button[data-qa='add-driver']>div": {
+			"innertext": "Добавить Водителя"
+		},
+		"button[data-qa='add-driver']~div>div~div": {
+			"data-tip": "Массовая загрузка"
+		},
+		"th p": {
+			"innertexts": [
+				"Имя",
+				"Номер телефона",
+				"Номер объекта",
+				"Номер водительского удостоврения",
+				"Имя поручителя",
+				"Номер телефона поручителя",
+				"Действия"
+			]
+		}
+	},
+	"Add Driver labels buttons": {
+		".ReactModalPortal div>p": {
+			"innertexts": [
+				"Добавить водителя",
+				"Имя*",
+				"Страна",
+				"Номер телефона*",
+				"Персональный Идентификационный Номер",
+				"Номер водительского удостоврения",
+				"Дата выдачи водительского удостоврения",
+				"Дата истечения водительского удостоврения",
+				"Идентификатор для отслеживания",
+				"Имя поручителя",
+				"Страна",
+				"Номер телефона поручителя",
+				"Добавить вложения",
+				"Фото профиля",
+				"Can Card",
+				"Водительское удостоверение",
+				"Разное"
+			]
+		},
+		"[data-qa='cancel-driver-modal']": {
+			"innertext": "Отмена"
+		},
+		"[data-qa='save-driver']": {
+			"innertext": "Добавить Водителя"
+		}
+	},
+	"Modal Errors": {
+		"div[name='name']~p": {
+			"innertext": "Требуется"
+		},
+		"//div[contains(@class,'phoneNumber-country-select__control')]/../../p": {
+			"innertext": "Требуется"
+		},
+		"[name='phoneNumber']~p": {
+			"innertext": "Введите действующий номер телефона"
+		}
+	}
+}
